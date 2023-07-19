@@ -23,7 +23,7 @@ echo "BUILDING ZIP: ${ZIP_FILE} for ${PYTHON}"
 mkdir /tmp/build
 
 # Create virtual environment and activate it
-virtualenv -p $PYTHON /tmp/build
+python3.9 -m venv /tmp/build
 source /tmp/build/bin/activate
 
 # Install requirements
