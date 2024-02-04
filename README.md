@@ -30,14 +30,14 @@ Clone for standalone use or within a repo:
 
 ``` bash
 # If installing into an exisiting repo, navigate to repo dir
-git clone --depth 1 https://github.com/robertpeteuil/build-lambda-layer-python _build_layer
+git clone --depth 1 https://github.com/530051970/build-lambda-layer-python _build_layer
 ```
 
 Alternatively, add as a submodule:
 
 ``` bash
 cd {repo root}
-git submodule add https://github.com/robertpeteuil/build-lambda-layer-python _build_layer
+git submodule add https://github.com/530051970/build-lambda-layer-python _build_layer
 # Update submodule
 git submodule update --init --recursive --remote
 ```
